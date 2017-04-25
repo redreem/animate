@@ -1,0 +1,39 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address,
+big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i,
+center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, td
+{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body {line-height:1} ol, ul {list-style:none} blockquote, q {quotes:none} blockquote:before, blockquote:after, q:before,
+q:after {content:'';content:none} :focus {outline:0} ins {text-decoration:none}del {text-decoration:line-through}
+img {border:0;outline:0} html,body {width:100%;color:#7B7B7B;font:16px Tahoma; height: 100%;margin:0}
+
+body {background-color:#222}
+.clear {position:relative;width:100%;height:1px;clear:both;font-size:0;overflow:hidden;line-height:0}
+
+#main_wrap {position:relative;width:100%;height:100%;margin:0 auto;z-index:0}
+
+#blocks {position:absolute;width:100%;height:100%;top:0;left:0;overflow:hidden}
+#blockPattern {display:none}
+.block {position:absolute;font-size:12px}
+.block > .border {
+  position:absolute;width:100%;height:100%;top:0;left:0;
+  opacity:0.5;
+  border:1px solid #aaa;
+  border-radius: 0px;z-index:0
+}
+.block > .content {
+  border:1px solid #000;
+  border-radius: 0px;
+  padding:4px;
+  margin:5px 4px 4px 5px;
+  background:#fff;color:#444;z-index:1}
+
+#monitor {position:absolute;width:100%;height:40px;bottom:0;left:0;background:#000;opacity:0.8;color:#fff;z-index:100}
+#monitor .parametr {float:left;padding:0 5px;display:inline-block;margin-top:4px}
+#monitor .engine_switch_parametr {float:right;padding:0 5px;display:inline-block;margin-top:4px}
+#monitor > div > span {padding:4px 8px;display:inline-block;border:1px solid #888;margin-top:1px}
+#monitor > input {padding:2px;display:inline-block;margin-top:8px;margin-left:4px}
+
+#monitor > #togglerDevelope {margin-top:8px;cursor:pointer}
+
+#numBlocks {width:30px}
+#engineType {cursor:pointer}

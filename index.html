@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <title>Animate</title>
+    <link rel="stylesheet" title="default" href="css/style.css" type="text/css">
+
+    <script type="text/javascript" src="js/jquery180-fixed.js"></script>
+    <script type="text/javascript" src="js/blocks.js"></script>
+    <script type="text/javascript" src="js/octoAnimator.js"></script>
+    <script type="text/javascript" src="js/onload.js"></script>
+</head>
+<body>
+
+    <div id="monitor">
+
+        <div class="parametr">que:       <span id="numQueue">0</span></div>
+        <div class="parametr">act:       <span id="numActive">0</span></div>
+        <div class="parametr">fx.off:    <span id="fxoff">нет</span></div>
+        <div class="parametr">int:       <span id="interval">нет</span></div>
+
+        <div class="engine_switch_parametr">
+            current engine:
+            <span id="engine">нет</span>
+        </div>
+
+        num:
+        <input id="numBlocks" type="test" value="10" title="from 1 to 1500">
+
+        switch to
+        <input id="engineType" type="button" value=""/>
+
+        <div class="clear">&nbsp;</div>
+
+    </div>
+
+    <div id="main_wrap">
+      <div id="blocks">&nbsp;</div>
+    </div>
+
+    <div id="blockPattern"><div class="border">&nbsp;</div><div class="content">{bContent}</div></div>
+
+</body>
+</html>
